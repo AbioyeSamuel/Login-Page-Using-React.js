@@ -3,9 +3,7 @@ import Login from "./Login";
 
 var isLoggedIn = false;
 
-function renderConditionally(){
-  
-}
+
 function App() {
   return (
     <div className="container">
