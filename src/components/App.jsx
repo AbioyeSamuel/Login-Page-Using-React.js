@@ -3,7 +3,7 @@ import React from "react";
 var isLoggerdIn = true;
 
 function renderConditionally(){
-  if(isLoggedIn === true){
+  if(isLoggedIn){
     
   }
 }
