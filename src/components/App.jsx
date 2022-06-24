@@ -4,7 +4,12 @@ import Login from "./Login";
 var isLoggedIn = false;
 
 function renderConditionally(){
-  if(isLoggedIn === true){
+  
+}
+function App() {
+  return (
+    <div className="container">
+      if(isLoggedIn === true){
     return <h1>Hello</h1>
   } else {
     return <Login
@@ -13,11 +18,6 @@ function renderConditionally(){
     login="Login"
     />
   }
-}
-function App() {
-  return (
-    <div className="container">
-      {renderConditionally()}
     </div>
   );
 }
