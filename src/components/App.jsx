@@ -1,5 +1,12 @@
 import React from "react";
 
+var isLoggerdIn = true;
+
+function renderConditionally(){
+  if(isLoggedIn === true){
+    
+  }
+}
 function App() {
   return (
     <div className="container">
